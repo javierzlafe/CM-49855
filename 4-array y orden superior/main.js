@@ -358,10 +358,6 @@ console.log(suma)
 console.log(numeros) */
 
 
-
-
-
-
 /* 
 constructor *
 productos *
@@ -378,11 +374,22 @@ const Producto = function(nombre,precio,stock){
     this.nombre = nombre
     this.precio = precio
     this.stock = stock
+    this.iva = function(){
+        
+    }
 }
-let producto1 =  new Producto("lenovo", 3500000, 20)
-let producto2 =  new Producto("samsung", 2500000, 10)
-let producto3 =  new Producto("mac", 4500000, 5)
-let lista = [producto1,producto2,producto3]
+let producto1= new Producto ("notebook lenovo", 480000, 20)
+let producto2= new Producto ("lenovo pad", 45500, 26)
+let producto3= new Producto ("notebook apple macbook", 700000, 45)
+let producto4= new Producto ("apple pad", 350000, 23)
+let producto5= new Producto ("apple smartwatch", 150000, 10)
+let producto6= new Producto ("samsung smartwatch", 17000, 30)
+let producto7= new Producto ("samsung smarttv", 120000, 1)
+let producto8= new Producto ("samsung galaxy s23", 320000, 7)
+let lista = [producto1,producto2,producto3,producto4,producto5,producto6,producto7,producto8]
+
+
+
 
 function filtrarProducto(){
     let palabraClave= prompt("ingresa producto que queres buscar").toUpperCase().trim()

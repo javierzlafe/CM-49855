@@ -1,0 +1,52 @@
+{"frutas":[
+    {
+      "nombre": "Manzana",
+      "color": "Rojo",
+      "sabor": "Dulce"
+    },
+    {
+      "nombre": "Plátano",
+      "color": "Amarillo",
+      "sabor": "Dulce"
+    },
+    {
+      "nombre": "Naranja",
+      "color": "Naranja",
+      "sabor": "Ácido"
+    },
+    {
+      "nombre": "Uva",
+      "color": "Morado",
+      "sabor": "Dulce"
+    },
+    {
+      "nombre": "Pera",
+      "color": "Verde",
+      "sabor": "Dulce"
+    },
+    {
+      "nombre": "Kiwi",
+      "color": "Verde",
+      "sabor": "Ácido"
+    },
+    {
+      "nombre": "Fresa",
+      "color": "Rojo",
+      "sabor": "Dulce"
+    },
+    {
+      "nombre": "Sandía",
+      "color": "Verde",
+      "sabor": "Dulce"
+    },
+    {
+      "nombre": "Melón",
+      "color": "Amarillo",
+      "sabor": "Dulce"
+    },
+    {
+      "nombre": "Piña",
+      "color": "Amarillo",
+      "sabor": "Ácido"
+    }
+  ]}
